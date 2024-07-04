@@ -7,7 +7,7 @@ import { dummyRestaurantsData } from '~/assets/Data/restaurant';
 const HomeScreen = () => {
   return (
     <SafeAreaView className="mt-6 flex-1 bg-white p-4">
-      <View className="flex-row justify-between">
+      <View className="mb-2 flex-row justify-between">
         <View className="flex-row items-center">
           <MaterialCommunityIcons name="map-marker-outline" size={28} color={'black'} />
           <Text className="ml-2">Your Adress Here</Text>
