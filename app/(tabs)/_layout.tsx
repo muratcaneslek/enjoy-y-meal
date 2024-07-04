@@ -1,12 +1,11 @@
 import { Tabs } from 'expo-router';
-import { TabBarIcon } from '../../components/TabBarIcon';
 import { Entypo, Feather, Ionicons } from '@expo/vector-icons';
 
 export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: 'black',
+        tabBarActiveTintColor: '#FF8C00',
       }}>
       <Tabs.Screen
         name="home"

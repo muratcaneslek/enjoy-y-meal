@@ -1,55 +1,5 @@
 const dummyRestaurantsData = [
   {
-    id: '0',
-    name: 'Bolt Food',
-    rating: 4.7,
-    price: 3,
-    distance: '0.85',
-    delivery: '10-20',
-    profileImage: 'https://x7d4c5z5.stackpathcdn.com/wp-content/uploads/tc/2021/03/og-img.jpg',
-    about: 'Your go-to place for quick and tasty meals delivered right to your doorstep.',
-    food: [
-      {
-        category: 'Combo Deals',
-        meals: [
-          {
-            id: 1,
-            name: 'Bolt Special Combo',
-            price: 12.99,
-            info: 'Includes one main item, one side, and one drink.',
-            img: 'https://www.borenos.com/wp-content/uploads/2018/11/5-person-combo-1.png',
-          },
-          {
-            id: 2,
-            name: 'Family Feast',
-            price: 24.99,
-            info: 'Perfect for a family meal with a variety of items for everyone.',
-            img: 'https://olo-images-live.imgix.net/f8/f8759c0fea82424a973f64402b26dcd2.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1536&h=512&fit=fill&fm=png32&bg=transparent&s=0f5507eba829e629624f13119ffee5d2',
-          },
-        ],
-      },
-      {
-        category: 'Burgers',
-        meals: [
-          {
-            id: 3,
-            name: 'Classic Cheeseburger',
-            price: 5.99,
-            info: 'Juicy beef patty, melted cheese, lettuce, and special sauce.',
-            img: 'https://goodysgroup.akamaized.net/images/882x648/files/Burgers_updated/4_Shadow_Classic_Cheese.png',
-          },
-          {
-            id: 4,
-            name: 'Veggie Delight Burger',
-            price: 4.99,
-            info: 'Grilled veggie patty, fresh veggies, and mayo.',
-            img: 'https://www.mexicangoldenchicken.com/wp-content/uploads/2023/11/veg-delight.webp',
-          },
-        ],
-      },
-    ],
-  },
-  {
     id: '1',
     name: "Domino's Pizza",
     rating: 4.6,
